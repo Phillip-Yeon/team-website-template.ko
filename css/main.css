@@ -1,0 +1,714 @@
+.body__container {
+
+    font-size: 16px;
+    font-weight: 400px;
+    color: #333;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+.custom-shape-divider-bottom-1628429407 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1628429407 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 198px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1628429407 .shape-fill {
+    fill: #7449D8;
+}
+
+.custom-shape-divider-top-1628685454 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1628685454 svg {
+    position: relative;
+    display: block;
+    width: calc(104% + 1.3px);
+    height: 194px;
+}
+
+.custom-shape-divider-top-1628685454 .shape-fill {
+    fill: #7449D8;
+}
+
+
+/* FLOAT CLEARFIX */
+
+.clearfix::after {
+
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+.float--left {
+
+    float: left;
+
+}
+
+.float--right {
+
+    float: right;
+
+}
+
+/* SECTION AND INNER CONFIGURATION. */
+
+
+.section {
+
+
+
+}
+
+
+.inner {
+
+    max-width: 980px;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+
+
+}
+
+
+/* HEADER */
+
+header {
+
+    height: 78px;
+    border-bottom: 1px solid rgba(0,0,0,.75);
+    box-shadow: 0 0 7px rgba(0,0,0,.6);
+    background: #ffffff;
+
+}
+
+header .section {
+
+    
+
+}
+
+header .inner {
+
+    height: 78px;
+    margin: 0 auto;
+
+}
+
+header .logo img{
+
+   width: 10%;
+   
+
+}
+
+.section .header-right {
+
+    align-items: center;
+    
+}
+
+.section .main-menu ul {
+
+    display: flex;
+    margin-top: -50px;
+
+}
+
+.section .main-menu li {
+
+    height: 100%;
+    margin-right: 50px;        /*need to work on responsive when the device size goes down the float element will shrink bug.)*/
+    font-size: 15px;
+    font-weight: thin;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.section .main-menu li:last-child {
+
+    
+
+}
+
+
+/* LANDING PAGE */
+
+.landing-page {
+
+    margin-bottom: 40px;
+
+}
+
+.landing-page .left-landing {
+
+    max-width: 560px;
+
+}
+
+.landing-page .left-landing h2 {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 75px;
+    line-height: 1.5;
+    text-shadow: 0 1px 1px rgba(0,0,0,.25), 
+                 0 1px 1px rgba(0, 0, 0, 0.21);
+
+}
+
+.landing-page .left-landing h2:first-child {
+
+    margin-top: 120px;
+
+}
+
+.landing-page .left-landing h2:last-child {
+
+    font-size: 85px;
+
+}
+
+.landing-page .right-landing {
+
+    max-width: 420px;
+    
+}
+
+.landing-page .right-landing img {
+
+    width: 90%;
+    margin-top: 120px;
+    margin-left: 60px;
+
+}
+
+.landing-page .left-landing .description {
+
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+
+.landing-page .left-landing .description .sub_description {
+
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+
+}
+
+.landing-page .custom-shape-divider-bottom-1628429407 {
+
+    display: none;
+    /*padding-top: 283px;*/
+
+}
+
+
+/* WHO ARE WE SECTION */
+
+.who-are-we {
+
+    width: 100%;
+    height: 605.2px;
+    background-color: #7449D8; 
+
+}
+
+.who-are-we .inner {
+
+
+
+}
+
+.who-are-we .who-are-we-title {
+
+    color: #fff;
+    line-height: 2;
+    width: 600px;
+
+}
+
+.who-are-we .who-are-we-title h2 {
+
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+
+}
+
+.who-are-we .who-are-we-title .discription {
+
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+
+}
+
+.who-are-we .who-are-we-title .discription p {
+
+    font-weight: normal;
+    margin-top: 30px;
+    float: right;
+
+}
+
+.who-are-we .custom-shape-divider-bottom-1628429407 {
+
+    transform: rotateY(180deg);
+    margin-bottom: -469px;
+
+}
+
+.custom-shape-divider-top-1628685454 {
+
+    margin-top: 1280px;
+
+}
+
+
+/* WHAT WE CAN DO SECTION*/
+
+
+.what-we-can-do .inner {
+
+    margin-top: 90px;
+    height: 760px;
+    
+}
+
+.what-we-can-do .inner .title {
+
+    padding-top: 60px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    padding-bottom: 80px;
+
+}
+
+.card {
+
+    margin: 0 auto;
+    position: relative;
+    height: 450px;
+    border-radius: 15px;
+    display: inline-block;
+    background-color: #e6e6e6;
+    margin-bottom: 100px;
+    /*box-shadow: 5px 10px 7px 
+    rgba(0, 0, 0, .5);*/
+    float: left;
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+    /*border: 5px solid #7449D8;*/
+    text-align: center;
+
+}
+
+.what-we-can-do .inner .cards .card {
+
+    color: #000;
+
+}
+
+.what-we-can-do .inner .cards .build {
+
+    margin-right: 27px;
+
+}
+
+.what-we-can-do .inner .cards .render {
+
+    margin-right: 27px;
+
+}
+
+
+
+.what-we-can-do .inner .cards .card .sub-title {
+
+    font-size: 45px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.what-we-can-do .inner .cards .card p {
+
+    text-align: center;
+    align-items: center;
+    margin-left: 17px;
+    margin-right: 17px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 19px;
+
+}
+
+.what-we-can-do .inner .cards .card .btn-learn-more {
+
+    margin: 0 auto;
+    text-align: center;
+    width: 150px;
+    margin-top: 110px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 3px solid #7449D8;
+    border-radius: 10px;
+
+}
+
+.what-we-can-do .inner .cards .develop .btn-learn-more {
+
+    margin-top: 138px;
+
+}
+
+
+/* OUR WORKS CSS */
+
+
+.our-works {
+
+    background: #7449D8;
+    height: 800px;
+
+}
+
+.our-works .inner .section-title {
+
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    padding-top: 110px;
+    font-size: 50px;
+
+}
+
+.our-works .inner .projects {
+
+    position: relative;
+    margin-top: 90px;
+    width: 980px;
+    height: 490px;
+    background: #fff;
+    border-radius: 30px;
+
+}
+
+.our-works .inner .projects img {
+
+    width: 980px;
+    height: 490px;
+
+}
+
+
+.our-works .inner .projects a {
+
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+
+}
+
+.our-works .inner .projects .hover:hover {
+
+    transition: 1s;
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: rgb(73, 15, 15);
+    display: block;
+
+}
+
+/* REVIEW CSS SECTION */
+
+.review .inner {
+
+    height: 830px;
+
+}
+
+.review .inner .section-title  {
+
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    padding-top: 70px;
+
+}
+
+.review .inner .review-card {
+
+    background: #e6e6e6;
+    width: 980px;
+    min-height: 250px;
+    margin-top: 110px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+
+}
+
+.review .inner .review-card-2 {
+
+    margin-top: 30px;
+
+}
+
+.review .inner .review-card .profile {
+
+
+    width: 100%;
+    height: 80px; 
+
+}
+
+.review .inner .review-card .profile .profile-image {
+
+    display: inline-block;
+    margin-bottom: 30px !important;
+    
+}
+
+
+.review .inner .review-card .profile .profile-image img {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-block;
+
+}
+
+.review .inner .review-card .profile .profile-image p {
+
+    margin-left: 100px;
+    margin-top: -35px;
+
+}
+
+.review .inner .review-card .content p {
+
+    width: 600px;
+    height: 100px;
+    margin-left: 30px;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-top: 20px;
+
+}
+
+.review .inner .review-card .content .stars {
+
+    margin-left: 30px;
+    margin-top: -30px;
+
+}
+
+
+/*ORDER MOTIVATION SECTION CSS CONFIGURATION.*/
+
+.order-slide-section {
+
+    background-color: #7449D8;
+    width: 100%;
+    height: 650px;
+
+}
+
+.order-slide-section .inner {
+
+    color: #fff;
+
+}
+
+.order-slide-section .inner .line-1 {
+
+    padding-top: 100px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+
+}
+
+.order-slide-section .inner .line-2 {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 200px;
+    
+}
+
+.order-slide-section .inner .line-3 {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 20;
+    font-size: 150px;
+    margin-top: -10px;
+
+}
+
+/* HIRE US CSS CONFIGURATION SECTION. */
+
+.hire-us {
+
+    height: 750px;
+
+}
+
+.hire-us .inner .float--left {
+
+    margin-top: 120px;
+    width: 490px;
+    background: tomato;
+    height: 500px;
+    border-radius: 30px;
+    background: #e6e6e6;
+
+}
+
+.hire-us .inner .float--left .order-title {
+
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+    font-size: 45px;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+.hire-us .inner .float--left .form {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.hire-us .inner .float--left .form input {
+
+    width: 450px;
+    height: 45px;
+    margin-top: 14px;
+    border-radius: 10px;
+    border: solid #7449D8 3px;
+    background: #e6e6e6;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
+}
+
+.hire-us .inner .float--left .form input:first-child {
+
+    margin-top: 50px;
+
+}
+
+#submit {
+
+    width: 459px;
+
+}
+
+#submit:hover {
+
+    cursor: pointer;
+
+}
+
+.hire-us .inner .float--right {
+
+    width: 450px;
+    height: 500px;
+    margin-top: 120px;
+    border-radius: 30px;
+    background: #e6e6e6;
+
+}
+
+.hire-us .inner .float--right .icons img {
+
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 120px;
+
+}
+
+footer {
+
+    height: 200px;
+    background: #7449D8;
+
+}
+
+footer .inner {
+
+    height: 200px;
+
+}
+
+footer .inner .footer-title {
+
+    padding-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+footer .inner .footer-content {
+
+    margin-top: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+
+}
+
+/* Still need to configure the footer section float alingment. */
+
+
+
+
+
+
